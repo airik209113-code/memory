@@ -10,7 +10,7 @@ const bilder = [
     "https://scwcontent.affino.com/AcuCustom/Sitename/DAM/017/Megacity_AdobeStock_187332287.jpg",
     "https://tse3.mm.bing.net/th/id/OIP.ZE1CTX3lEi8ccD5Qxk9ZBgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
     "https://media.istockphoto.com/photos/aerial-view-of-mega-city-skyline-picture-id174215815?k=20&m=174215815&s=612x612&w=0&h=rJWrHyAadTZjBusoo3JnuQZ-Yfp0S8mUV-VTrjtczs0=",
-    "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/07/30/221537.jpg"
+    "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/07/30/221537.jpg",
 ];
 
 let cards = [];
