@@ -3,14 +3,14 @@ const zuege = document.getElementById("moves");
 const neuStart = document.getElementById("restart-btn");
 
 const bilder = [
-    "https://pngimg.com/uploads/flags/flags_PNG14615.png",
-    "https://img.freepik.com/premium-vector/austria-flag_1109882-6558.jpg",
-    "images/234327986859035320.jpg",
-    "images/11047961582700970.jpg",
-    "images/5207355814894851.jpg",
-    "images/1618549864562566.jpg",
-    "images/492649954934903.jpg",
-    "images/422281212092771.jpg"
+    "https://pixabay.com/images/download/gruendercoach-the-sheep-7089786_1920.jpg",
+    "https://pixabay.com/images/download/pexels-red-panda-1851661_1920.jpg",
+    "https://pixabay.com/images/download/kathy_buscher-adler-2386314_1920.jpg",
+    "https://pixabay.com/images/download/pexels-adorable-1852815_1920.jpg",
+    "https://pixabay.com/images/download/11417994-chipmunk-3959206_1920.jpg",
+    "https://pixabay.com/images/download/12019-iceland-1979445_1920.jpg",
+    "https://pixabay.com/images/download/katrinbechtel-dog-7956828_1920.jpg",
+    "https://pixabay.com/images/download/pexels-lemur-1851671_1920.jpg"
 ];
 
 let cards = [];
