@@ -3,14 +3,14 @@ const zuege = document.getElementById("moves");
 const neuStart = document.getElementById("restart-btn");
 
 const bilder = [
-    "https://pin.it/7rN44YQTc",
-    "https://pin.it/3CdJmGxRa",
-    "https://pin.it/5VPsAzgo4",
-    "https://pin.it/3w9SWf0AV",
-    "https://pin.it/3BhLEtHJR",
-    "https://pin.it/5bwAHDvEZ",
-    "https://pin.it/3frNhcjPb",
-    "https://pin.it/6yvg0lrDo"
+    document.createElement("https://pin.it/7rN44YQTc"),
+    document.createElement("https://pin.it/3CdJmGxRa"),
+    document.createElement("https://pin.it/5VPsAzgo4"),
+    document.createElement("https://pin.it/3w9SWf0AV"),
+    document.createElement("https://pin.it/3BhLEtHJR"),
+    document.createElement("https://pin.it/5bwAHDvEZ"),
+    document.createElement("https://pin.it/3frNhcjPb"),
+    document.createElement("https://pin.it/6yvg0lrDo"),
 ];
 
 let cards = [];
