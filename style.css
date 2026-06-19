@@ -1,42 +1,70 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     text-align: center;
     margin: 0;
     padding: 20px;
+
+    background: linear-gradient(135deg, #c6ffe0, #095234);
+    min-height: 100vh;
 }
 
 h1 {
-    margin-bottom: 20px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    margin-bottom: 15px;
 }
 
 .info {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 25px;
+    gap: 25px;
+    margin-bottom: 30px;
+
+    font-size: 22px;
+    font-weight: bold;
 }
 
 #restart-btn {
-    padding: 10px 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
     cursor: pointer;
+
+    background: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#restart-btn:hover {
+    transform: scale(1.08);
 }
 
 .game-board {
     display: grid;
-    grid-template-columns: repeat(4, 120px);
-    gap: 10px;
+    grid-template-columns: repeat(4, 130px);
+    gap: 15px;
     justify-content: center;
 }
 
 .card {
-    width: 120px;
-    height: 120px;
-    background-color: steelblue;
-    border-radius: 10px;
+    width: 130px;
+    height: 130px;
+
+    background: linear-gradient(45deg, #3a3509, #ffd446);
+
+    border-radius: 20px;
     cursor: pointer;
     overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+    transition: 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card-image {
@@ -46,5 +74,6 @@ h1 {
 }
 
 .card.matched {
-    border: 4px solid limegreen;
+    border: 5px solid #00ff88;
+    box-shadow: 0 0 25px #00ff88;
 }
