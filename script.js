@@ -30,7 +30,7 @@ function startGame() {
     flipped = [];
     gesperrt = false;
 
-    for (let bild of karten) {
+    for (let bild of cards) {
 
         const cards = document.createElement("div");
         cards.classList.add("card");
@@ -73,7 +73,7 @@ function vergleichen() {
         zweite.classList.add("matched");
         flipped = [];
         let gefunden = document.querySelectorAll(".matched");
-        if (gefunden.length === karten.length) {
+        if (gefunden.length === cards.length) {
             alert("Gewonnen in " + anzahlZuege + " Zügen!");
         }
     } else {
