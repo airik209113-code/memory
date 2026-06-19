@@ -3,8 +3,8 @@ const zuege = document.getElementById("moves");
 const neuStart = document.getElementById("restart-btn");
 
 const bilder = [
-    "images/🫶.jpg",
-    "images/776237685825297858.jpg",
+    "https://pngimg.com/uploads/flags/flags_PNG14615.png",
+    "https://img.freepik.com/premium-vector/austria-flag_1109882-6558.jpg",
     "images/234327986859035320.jpg",
     "images/11047961582700970.jpg",
     "images/5207355814894851.jpg",
